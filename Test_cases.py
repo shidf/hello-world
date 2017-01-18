@@ -3,7 +3,7 @@ import string
 import types
 from Bill_calculate import *
 
-def run(self):
+def run():
     
     test_scenario_1 = [[0,0,0,0],[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1],[1,1,0,0],[0,1,1,0],[0,0,1,1],[1,0,1,0],[1,0,0,1],[0,1,0,1],[1,1,1,0],[1,0,1,1],[0,1,1,1],[1,1,0,1],[1,1,1,1]]
 
@@ -128,4 +128,5 @@ def run(self):
             DVD_days_list = test_scenario_1[i]
             Bill_one_time,Free_transaction_left = Cal_bill.Custom_bill_cal(DVD_number_list,DVD_days_list,Custom_type,Free_transaction_left)
 
-
+if __name__ == '__main__':
+    run()
