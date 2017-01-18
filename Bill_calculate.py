@@ -13,6 +13,14 @@ Free_transaction_times_every_membership  = {
             'Temporary':1
             }
 
+Additional_transation_cost_every_membershi = {'Permanent':50,
+            'S1':12,
+            'S2':15,
+            'S3':15,
+            'S4':15,
+            'Temporary':0
+            } 
+
 DVD_types_money_dic = {'Movies':20,
             'Documentaries':20,
             'Games':50,
